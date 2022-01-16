@@ -15,9 +15,7 @@
                             <h2>{{ post.title }}</h2>
                             <hr class="star-primary">
                             <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
-                            {% if post.description %}
-                                <p>{{ post.description }}</p>
-                            {% endif %}
+                            
                             <ul class="list-inline item-details">
                                 {% if post.client %}
                                     <li>Client:
@@ -27,21 +25,44 @@
                                 {% endif %}
                                 {% if post.project-date %}
                                     <li>Date:
-                                        <strong><a href="http://startbootstrap.com">{{ post.project-date }}</a>
+                                        <strong style="color:#18BC9C" >{{ post.project-date }}
                                         </strong>
                                     </li>
                                 {% endif %}
                                 {% if post.category %}
-                                    <li>Service:
-                                        <strong><a href="http://startbootstrap.com">{{ post.category }}</a>
+                                    <li>Category:
+                                        <strong style="color:#18BC9C" >{{ post.category }}
                                         </strong>
                                     </li>
                                 {% endif %}
+                                {% if post.website %}
+                                    <li>Code:
+                                        <strong><a href={{ post.website }} target="_blank" >GitHub repository</a>
+                                        </strong>
+                                    </li>
+                                {% endif %}
+                                <div class="col-lg-5 col-lg-offset-1">
+                                    <div class="spacing"></div>
+                        
+                                    {{ content }}
+                        
+                                </div>
                             </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            {% if post.description %}
+                                <p align="justify" >{{ post.description }} </p>
+                            {% endif %}
+
+                            <div class="col-lg-8 col-lg-offset-2 text-center">
+                                <a href= {{post.report}} target="_blank" class="btn btn-success">
+                                    <i class="fa fa-download" ></i> Read the report
+                                </a>
+                            </div>
+                            <!-- <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button> -->
                         </div>
                     </div>
                 </div>
+                <br>
+                <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
             </div>
         </div>
     </div>

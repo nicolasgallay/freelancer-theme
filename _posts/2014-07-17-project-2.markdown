@@ -1,11 +1,13 @@
 ---
 layout: default
 modal-id: 2
-date: 2014-07-17
-img: cake.png
+date: 2021-07-11
+img: vendeeGlobe.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+project-date: November 2021
+category: Data Mining 
+tagged: Python, Data Mining
+website: https://github.com/Kit-Data-Science-Telecom-2021-2022/Exercices_Nicolas_Gallay/blob/master/Projet_Nicolas_Gallay/Vendee_Globe_Nicolas_Gallay.ipynb
+report: project_content/Vendee_Globe_Nicolas_Gallay.html
+description: The purpose of this project was to study the data of the Vendée Globe 2020, the largest solo race across the world by sail. Created in 1989, this race represents a technical achievement for the sailors and their boat. The 9th edition of the Vendée Globe started in Les Sables d'Olonne on November 8th, 2020. We will try to analyze this edition. This analysis will be done on the data BEFORE the arrival of the first boats.
 ---

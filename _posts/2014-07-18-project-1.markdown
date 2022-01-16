@@ -1,11 +1,15 @@
 ---
 layout: default
 modal-id: 1
-date: 2014-07-18
-img: cabin.png
+date: 2021-12-17
+img: spotify.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+project-date: December 2021
+category: Data Mining 
+tagged: Python, Data Mining, Music
+website: https://github.com/nicolasgallay/SD701
+report: project_content/Data_mining_eng_Portfolio.pdf
+description: Music is the 4th art, and is defined, in the Oxford dictionnary, as the ability of combining sounds according to rules, which vary according to place and time. If we focus on the last 70 years, music has gone from being sparse entertainment to being ubiquitous. Music has developed at a very high speed and this democratisation has led to the appearance of new genres at very short intervals (blues, rock, funk, disco, pop, rap, R&B... ) and many other in less than 70 years. We have asked ourselves. What has evolved or changed in music over the last decades ? And, what are the main differences between nowadays music and the one produced in the 50’s or 60’s ?
 ---
+
+
