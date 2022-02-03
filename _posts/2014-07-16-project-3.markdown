@@ -1,11 +1,12 @@
 ---
 layout: default
 modal-id: 3
-date: 2014-07-16
-img: elk.png
+img: hadoop.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+project-date: November 2021
+category: Ditibuted System
+tagged: Python, MapReduce
+website: https://github.com/nicolasgallay/INF727_projet
+report: project_content/INF727_projet_GALLAY.pdf
+description: The goal of this project was to implement a simple version of the MapReduce concept whose best known implementation is Hadoop. This project aims to compare the performance of a distributed architecture with that of a non-distributed architecture and to highlight the famous Amhmdal's law.
 ---

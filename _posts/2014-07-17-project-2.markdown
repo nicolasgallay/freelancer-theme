@@ -1,7 +1,6 @@
 ---
 layout: default
 modal-id: 2
-date: 2021-07-11
 img: vendeeGlobe.png
 alt: image-alt
 project-date: November 2021
