@@ -3,7 +3,7 @@ layout: default
 modal-id: 7
 img: data_challenge.png
 alt: image-alt
-project-date: March 2022
+project-date: March 2022 (work in progress)
 
 report: 
 category: Machine Learning
