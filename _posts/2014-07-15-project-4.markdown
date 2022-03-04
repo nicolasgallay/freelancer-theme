@@ -6,5 +6,6 @@ alt: image-alt
 project-date: Jun 2022
 client: Veepee
 category: Churn prediction
-description: Comming soon
+description: "As part of our studies in the Big Data and AI Master degree program, we are required to work on a big data project in partnership with a company. We have chosen to do this work with Veepee, an online shopping company, and more particularly on a subject that is economically important for the organization, the prediction of CRM segment downgrades also called \"Churn prediction\"
+</br> This project will last 9 months during which we will set up a model capable of satisfying this need."
 ---

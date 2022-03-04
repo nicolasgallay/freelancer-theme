@@ -3,10 +3,13 @@ layout: default
 modal-id: 6
 img: elk.png
 alt: image-alt
-project-date: February 20220
-category: Data Engineering
-report:
-description: "coming soon"
-website: https://github.com/ToNi-sn/INF728-NoSQL
+project-date: February 2022
+category: Log Analytics
+report: project_content/ELK_stack_project.pdf
+description: "The objective is to build the ELK stack and manipulate it 
+</br>- Building the environment (virtual machine + stack)
+</br>- Perform a data collection (beats/packetbeat)
+</br>- Perform data indexing (packetbeat+elasticsearch)
+</br>- Build a dashboard and present the data (kibana dashboard)"
 ---
 

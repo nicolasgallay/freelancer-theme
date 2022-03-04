@@ -1,20 +1,15 @@
 ---
 layout: default
-modal-id: 5
-img: nosql.png
+modal-id: 7
+img: data_challenge.png
 alt: image-alt
-project-date: February 2022
+project-date: March 2022
 
-report: project_content/Slides_NoSQL.pdf
-category: Data Engineering
+report: 
+category: Machine Learning
 
-description : " The Global Database of Events, Language, and Tone (GDELT) monitors the world’s broadcast, print, and web news from nearly every corner of every country in over 100 languages and identifies the people, locations, organizations, themes, sources, emotions, counts, quotes, images and events driving our global society every second of every day, creating a free open platform for computing on the entire world.  <br/>  
- The objective of this project is to propose a distributed, resilient and efficient storage system to answer the following questions about the year 2021   <br/> 
- <br/> 1) Display the number of articles/events there were for each triplet (day, event country, article language).   
- <br/> 2) For a country given in parameter, display the events that took place there sorted by the number of mentions (descending sort); allow aggregation by day/month/year
-<br/> 3) For a data source given in parameter display the themes, persons, places about which the articles of this source talk as well as the number of articles and the average tone of the articles (for each theme/person/place); allow an aggregation by day/month/year.
-<br/> 4) Study the evolution of relations between two countries (specified in parameter) over the year.
-"
-website: https://github.com/ToNi-sn/INF728-NoSQL
+description : "
+In the past few years, Face Recognition (FR) systems have reached extremely high levels of performance, paving the way to a broader range of applications, where the reliability levels were previously prohibitive to consider automation. This is mainly due to the adoption of deep learning techniques in computer vision. The most adopted paradigm consists in training a network which, from a given image extracts a feature vector which synthetizes the relevant caracteristics of the image. The recognition phase then consists, from two images im1,im2, to predict wether they correspond to the same identity or not. This is done from the extracted features z1,z2.
+<br/> In this data challenge, you are ask to train a machine learning model which, from a vector [z1,z2] made of the concatenation of two templates z1 and z2, predict wether or not these two images correspond to the same identity."
+website: 
 ---
-
