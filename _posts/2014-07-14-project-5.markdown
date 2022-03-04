@@ -5,13 +5,8 @@ img: elk.png
 alt: image-alt
 project-date: February 20220
 category: Data Engineering
-description: " The Global Database of Events, Language, and Tone (GDELT) monitors the world’s broadcast, print, and web news from nearly every corner of every country in over 100 languages and identifies the people, locations, organizations, themes, sources, emotions, counts, quotes, images and events driving our global society every second of every day, creating a free open platform for computing on the entire world.  <br/>  
- The objective of this project is to propose a distributed, resilient and efficient storage system to answer the following questions about the year 2021   <br/> 
- <br/> 1) Display the number of articles/events there were for each triplet (day, event country, article language).   
- <br/> 2) For a country given in parameter, display the events that took place there sorted by the number of mentions (descending sort); allow aggregation by day/month/year
-<br/> 3) For a data source given in parameter display the themes, persons, places about which the articles of this source talk as well as the number of articles and the average tone of the articles (for each theme/person/place); allow an aggregation by day/month/year.
-<br/> 4) Study the evolution of relations between two countries (specified in parameter) over the year.
-"
+report:
+description: "coming soon"
 website: https://github.com/ToNi-sn/INF728-NoSQL
 ---
 
