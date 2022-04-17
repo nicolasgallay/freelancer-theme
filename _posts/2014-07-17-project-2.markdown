@@ -1,12 +1,14 @@
 ---
 layout: default
-modal-id: 2
-img: vendeeGlobe.png
+modal-id: 7
+img: data_challenge.png
 alt: image-alt
-project-date: November 2021
-category: Data Mining 
-tagged: Python, Data Mining
-website: https://github.com/Kit-Data-Science-Telecom-2021-2022/Exercices_Nicolas_Gallay/blob/master/Projet_Nicolas_Gallay/Vendee_Globe_Nicolas_Gallay.ipynb
-report: project_content/Vendee_Globe_Nicolas_Gallay.html
-description: The purpose of this project was to study the data of the Vendée Globe 2020, the largest solo race across the world by sail. Created in 1989, this race represents a technical achievement for the sailors and their boat. The 9th edition of the Vendée Globe started in Les Sables d'Olonne on November 8th, 2020. We will try to analyze this edition. This analysis will be done on the data BEFORE the arrival of the first boats.
+project-date: March 2022 (work in progress)
+website: https://github.com/nicolasgallay/MDI343_Data_Challenge/blob/main/Data_Challenge_NicolasGallay.ipynb
+category: Machine Learning
+
+description : "
+In the past few years, Face Recognition (FR) systems have reached extremely high levels of performance, paving the way to a broader range of applications, where the reliability levels were previously prohibitive to consider automation. This is mainly due to the adoption of deep learning techniques in computer vision. The most adopted paradigm consists in training a network which, from a given image extracts a feature vector which synthetizes the relevant caracteristics of the image. The recognition phase then consists, from two images im1,im2, to predict wether they correspond to the same identity or not. This is done from the extracted features z1,z2.
+<br/> In this data challenge, you are ask to train a machine learning model which, from a vector [z1,z2] made of the concatenation of two templates z1 and z2, predict wether or not these two images correspond to the same identity."
+
 ---
